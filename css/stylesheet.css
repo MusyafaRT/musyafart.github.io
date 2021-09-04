@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+a:hover {
+  transition: all 0.3s ease;
+}
+.header{
+  width: 100%;
+  display: block;
+  height: 65px;
+  background-color: #3DB2FF;
+  border-bottom: 1px solid rgb(52, 113, 245);
+}
+.inner-header{
+  width: 95%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.header-left{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.header-left .logo{
+  width: 50px;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 10px 20px;
+}
+
+.header-right{
+  float: right;
+  height: 100%;
+}
+
+.header-right a{
+  float: left;
+  height: 100%;
+  display: table;
+  padding: 0 20px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  opacity: 0.7;
+}
+.header-right a:hover{
+  opacity: 0.9;
+  color: rgb(255, 255, 255);
+}
+
+.header-right a li{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* akhir Header */
+
+.top-wrapper{
+  font-family: "Lucida Grande";
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  color: rgb(39, 37, 37);
+  flex-wrap: wrap;
+  background-image: url("/img/wall.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.top-img img{
+  overflow: hidden;
+  float: right;
+  width: 300px;
+  padding: 30px;
+}
+.top-detail{
+  width: 30%;
+  min-width: 320px;
+  padding: 30px;
+}
+.top-detail h2{
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+}
+.top-detail h1{
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+.top-detail p{
+  opacity: 0.8;
+}
+/* Akhir top */
+.items-wrapper{
+  text-align: center;
+  font-family: "Lucida Grande";
+  border-bottom: 1px solid grey;
+  padding-bottom: 30px;
+  
+}
+
+.items-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  padding: 20px 0;
+  justify-content: center;
+}
+.item-heading{
+  padding: 30px;
+  font-family: 'Trebuchet MS';
+  border-bottom: 1px solid rgba(167, 167, 167, 0.2);
+  letter-spacing: 1.5;
+}
+.item-heading h2{
+  color: rgba(85, 85, 85, 0.9);
+}
+.item{
+  margin-top: 10px;
+  min-width: 300px;
+  min-width: 310px;
+  max-width: 310px;
+  
+}
+.item-icon img{
+  width: 200px;
+  height: 300px;
+}
+.item-button{
+  display: block;
+  padding: 10px;
+  margin: 10px 60px;
+  background-color: rgb(3, 122, 201);
+  border-radius: 4px;
+  opacity: 0.7;
+}
+.item-button:hover{
+  opacity: 1;
+}
+.item-button a p{
+  color: aliceblue;
+  letter-spacing: 1.3px;
+  opacity: 0.7;
+}
+
+
+.txt-item{
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+/* akhir item */
+
+.footer{
+  width: 100%;
+  padding-top: 20px;
+  color:honeydew;
+  font-family: "Gill Sans";
+  background-color: rgba(14, 157, 252, 0.884);
+  text-align: center;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-logo img {
+  width: 130px;
+  padding: 0 20px 5px 20px;
+}
+.footer-logo p{
+  line-height: 28px;
+  margin: 5px auto;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.footer-list a{
+  color: #c2c1c1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.footer-list a:hover{
+  color: aliceblue;
+}
+.footer-bottom{
+  margin-top: 10px;
+  background-color: rgba(0, 111, 175, 0.7);
+  padding: 10px;
+  font-size: 10px;
+  opacity: 0.7;
+}
