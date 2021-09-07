@@ -11,8 +11,8 @@ a:hover {
   width: 100%;
   display: block;
   height: 65px;
-  background-color: transparent;
-  border-bottom: 1px solid rgb(52, 113, 245);
+  background-color: rgba(51, 204, 255, 0.5);
+  border-bottom: 0.2px solid rgba(52, 113, 245, 0.3);
 }
 .inner-header{
   width: 95%;
